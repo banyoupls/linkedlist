@@ -56,5 +56,5 @@ int main() {
 
 
     //это надо показать на дизассембле
-    cout << list->head->next->next->value;
+    cout << "Value: " << list->head->next->next->value;
 }
